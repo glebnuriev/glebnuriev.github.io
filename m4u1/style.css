@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.hd{
+    border-radius: 35px;
+    height:72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20%;
+    font-size: 200%;
+    font-family:Oswald;
+    text-align: center;
+    background-color: rgb(174, 130, 124);  
+    
+}
+
+.logo{
+    font-size: 75%;
+}
+
+header a{
+    margin-right: 40px;
+    color: black;
+}
+
+main {
+    background-image: url(421.png) center/cover;
+}
+
+article:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+    transition: 0.5s
+}
+
+header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article img {
+    height: 200px;
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 150px;
+    margin-right: 200px;
+}
+
+
+
+main article p, h2{
+    font-family:Oswald;
+}
+
+
+
+article {
+    display: flex;
+    background: linear-gradient(rgb(158, 115, 109),rgb(197, 150, 150)); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    margin-right: 400px;
+    
+}
+
+article img {
+    max-width: 400px; 
+    margin-right: 100px;
+}
+
+article div {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: column;
+
+}
+
+
+body {
+    background-image: url(00.jpg);
+}
+
+.footer {
+    background: linear-gradient(rgb(158, 115, 109),rgb(197, 150, 150));
+    color: #000000;
+    padding: 40px 0 20px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 30px;
+    border-radius: 40px;
+}
+
+.footer:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+    transition: 0.5s 
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    padding: 0 15px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #000000;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: rgb(174, 130, 124);
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #533e3e;
+    margin-top: 30px;
+}
+
+
+
